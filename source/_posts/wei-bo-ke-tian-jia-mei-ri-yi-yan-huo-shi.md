@@ -10,18 +10,19 @@ tags:
   <div class="poem-border poem-left"></div>
   <div class="poem-border poem-right"></div>
     <h1>诗词</h1>
-    <p id="poem">挑选中...</p>
-    <p id="info">  
-   <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+    <div>
+    <span id="jinrishici-sentence">正在加载今日诗词....</span></div>
+<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+    <p id="poem_info"> 
   <script type="text/javascript">
     jinrishici.load(function(result) {
-      poem.innerHTML = result.data.content
-      info.innerHTML = '【' + result.data.origin.dynasty + '】' + result.data.origin.author + '《' + result.data.origin.title + '》'
-      document.getElementById("poem").value(poem);
-      document.getElementById("info").value(info);  
+        var poem_info=document.querySelector("#poem_info") 
+      poem_info.innerHTML = '【' + result.data.origin.dynasty + '】' + result.data.origin.author + '《' + result.data.origin.title + '》'
+      document.getElementById("poem_info").value(poem_info);  
   });
   </script>
 </div>
+
 
 <!-- more -->
 
@@ -139,7 +140,7 @@ tags:
 <script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
 ```
 
-挺简单的，但是对新手不大友好。
+挺不简单的，但是对新手不大友好。
 
 #### 参考文章
 
