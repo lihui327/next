@@ -11,17 +11,10 @@ tags:
   <div class="poem-border poem-right"></div>
     <h1>诗词</h1>
     <div>
-    <span id="jinrishici-sentence">正在加载今日诗词....</span></div>
+    <span id="jinrishici-sentence">春水满四泽，夏云多奇峰。</span></div>
 <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-    <p id="poem_info"> 
-  <script type="text/javascript">
-    jinrishici.load(function(result) {
-        var poem_info=document.querySelector("#poem_info") 
-      poem_info.innerHTML = '【' + result.data.origin.dynasty + '】' + result.data.origin.author + '《' + result.data.origin.title + '》'
-      document.getElementById("poem_info").value(poem_info);  
-  });
-  </script>
 </div>
+
 <!-- more -->
 
 
