@@ -23,7 +23,6 @@ tags:
   </script>
 </div>
 
-
 <!-- more -->
 
 #### 为子标题添加今日诗词
@@ -34,7 +33,7 @@ tags:
 
 #### 为博客文章添加今日诗词、每日一言
 
-`themes\next\source\css\_schemes\Muse\index.styl`
+`themes\next\source\css\_schemes\Muse\_header.styl`
 
 使用的哪个样式就直接在那个样式下的index.styl文件中更改，直接在后面加上如下代码：
 
@@ -140,7 +139,7 @@ tags:
 <script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
 ```
 
-挺不简单的，但是对新手不大友好。
+挺不简单的，对新手不大友好。
 
 #### 参考文章
 

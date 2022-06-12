@@ -22,8 +22,6 @@ tags:
   });
   </script>
 </div>
-
-
 <!-- more -->
 
 
