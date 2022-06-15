@@ -97,7 +97,7 @@ deploy:
   type:
 
 permalink_pinyin:
-  enable: true
+  enable: false
   separator: '-' # default: '-'
 
 search:
