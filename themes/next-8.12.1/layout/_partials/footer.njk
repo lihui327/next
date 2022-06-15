@@ -77,7 +77,7 @@
 {%- if theme.footer.powered %}
   <div class="powered-by">
     {%- set next_site = 'https://theme-next.js.org' if theme.scheme === 'Gemini' else 'https://theme-next.js.org/' + theme.scheme | lower + '/' %}
-    {{- __('footer.powered', next_url('https://hexo.io', 'Hexo') + ' & ' + next_url(next_site, 'NexT.' + theme.scheme) + ' & ' + next_url('https://vercel.com', 'Vervel')) }}
+    {{- __('footer.powered', next_url('https://hexo.io', 'Hexo') + ' & ' + next_url(next_site, 'NexT.' + theme.scheme) + ' & ' + next_url('https://vercel.com', 'Vercel')) }}
   </div>
   <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
 <script>
